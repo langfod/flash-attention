@@ -1,0 +1,13 @@
+--extra-index-url=https://download.pytorch.org/whl/cu129 
+torch<2.9
+torchaudio
+
+https://github.com/woct0rdho/triton-windows/releases/download/empty/triton-3.3.0-py3-none-any.whl ; sys_platform == 'win32' #egg:3.3.0
+triton-windows<3.5; sys_platform == 'win32' # tw
+numpy
+build
+sdist
+packaging
+ninja
+wheel
+setuptools

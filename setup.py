@@ -384,6 +384,8 @@ elif not SKIP_CUDA_BUILD and IS_ROCM:
                     "-DCK_ENABLE_FP64",
                     "-DCK_ENABLE_FP8",
                     "-DCK_ENABLE_INT8",
+                    "-DCK_ENABLE_INT4",
+                    "-DCK_ENABLE_TF32",
                     "-DCK_USE_XDL",
                     "-DUSE_PROF_API=1",
                     # "-DFLASHATTENTION_DISABLE_BACKWARD",
